@@ -30,6 +30,7 @@
     "UI"
   ],
   "dependencies": {
+    "dom-classlist": "^1.0.1",
     "merge": "^1.2.0"
   }
 }

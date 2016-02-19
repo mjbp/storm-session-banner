@@ -36,11 +36,12 @@
         .banner {
             display:block;
             width:100%;
-            padding:15px 50px 15px 35px;
+            padding:25px 50px 25px 35px;
             min-height: 50px;
             background:red;
             color:#fff;
-            position: relative;
+            position: fixed;
+            top:0;
         }
         h1 {
             font:1.5rem 'Roboto Condensed', sans-serif;
@@ -51,12 +52,17 @@
         }
         button {
             background:transparent;
+            border:0 none;
             position: absolute;
             top:15px;
             right:35px;
         }
         button:hover {
             opacity:.6;
+        }
+        .off--banner {
+            opacity: 0;
+            visibility: hidden;
         }
     </style>
 </head>

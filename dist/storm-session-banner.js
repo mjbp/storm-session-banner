@@ -1,4 +1,9 @@
-'use strict';
+/**
+ * @name storm-session-banner: Session-based dismissible banner
+ * @version 0.1.0: Fri, 19 Feb 2016 12:20:08 GMT
+ * @author stormid
+ * @license MIT
+ */'use strict';
     
 var merge = require('merge'),
     classlist = require('dom-classlist'),

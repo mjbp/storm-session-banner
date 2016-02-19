@@ -1,13 +1,21 @@
-#Storm Equal Height
+#Storm Session Banner
 
-Layout helper to equalise the height of a set of DOM elements
+Session-based dismissible banner
 
 ##Usage
-npm install storm-equal-height
-
-var equalHeight = require('storm-equal-height')
-
-equalHeight.init('js-equal-height',  {minWidth: 768});
+```
+npm install storm-session-banner
+```
+```
+var banner = require('storm-session-banner')
+banner.init('js-banner',  {cb: function() {
+    console.log('Banner dismissed');
+}});
+```
 
 ###Options
-minWidth, Number, minimum window width at which to apply equal height across elements
+offClassName, String, default: 'off--banner', CSS className for hidden banner
+buttonClassName, String, default: 'js-banner-btn', CSS selector for close button
+sessionItemName, String, default: 'storm-banner', session storage variable name
+sessionItemValue, String, default: 'acknowledged', session storage variable value
+cb, function, default: null, callback function called after banner is closed
