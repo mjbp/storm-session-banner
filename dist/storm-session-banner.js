@@ -1,6 +1,6 @@
 /**
  * @name storm-session-banner: Session-based dismissible banner
- * @version 0.1.0: Fri, 19 Feb 2016 12:20:08 GMT
+ * @version 0.2.0: Thu, 25 Feb 2016 18:12:30 GMT
  * @author stormid
  * @license MIT
  */'use strict';
