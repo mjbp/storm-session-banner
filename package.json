@@ -1,6 +1,6 @@
 {
   "name": "storm-session-banner",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Session-based dismissible banner",
   "author": "stormid",
   "license": "MIT",
